@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import moment from "moment";
 import Link from "next/link";
 import { getRecentPosts, getSimilarPosts } from "../services";
-import Image from 'next/image';
+import Image from "next/image";
 
 // import { grpahCMSImageLoader } from '../util';
 
@@ -27,7 +27,7 @@ const PostWidget = ({ categories, slug }) => {
       {relatedPosts.map((post) => (
         <div key={post.title} className="flex items-center w-full mb-4">
           <div className="w-16 flex-none">
-          <Image
+            <Image
               // loader={grpahCMSImageLoader}
               alt={post.title}
               height="60px"
