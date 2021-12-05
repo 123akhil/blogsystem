@@ -6,7 +6,7 @@ import Link from "next/link";
 // import { grpahCMSImageLoader } from "../util";
 
 const PostCard = ({ post }) => (
-  <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
+  <div className="bg-white shadow-lg rounded-lg p-0 lg:p-6 pb-8 mb-8 md:p-2">
     <div className="relative overflow-hidden shadow-md pb-80 mb-6">
       <img
         src={post.featuredImage.url}

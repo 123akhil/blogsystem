@@ -6,8 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.5",
     "graphql": "^15.7.2",
     "graphql-request": "^3.6.1",
+    "heroicons": "^1.0.5",
     "html-react-parser": "^1.4.0",
     "moment": "^2.29.1",
     "next": "latest",
